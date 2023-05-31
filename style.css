@@ -66,10 +66,16 @@ main {
     border-radius: 0px 0px 10px 10px;
 }
 
+}
+main img {
+    margin-bottom: 20px;
+    max-width: 1000px;
+}
+
 #principal > h1 {
     font-family: android;
     color: #0d5a28;
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin-bottom: 10px;
 }
 #principal > h2 {
@@ -78,6 +84,7 @@ main {
     background-image: linear-gradient(to right, #15a146a8, #67be852c);
     margin: 15px 0px;
     padding-left: 10px;
+    font-size: 1.3em;
 }
 #principal > p > span {
     color: #0d5a28;
@@ -97,10 +104,7 @@ main {
     text-indent: 2em;
     margin-bottom: 20px;
 }
-main img {
-    margin-bottom: 20px;
-    max-width: 1000px;
-}
+
 #dandroid {
     display: block;
     text-align: center;
@@ -141,6 +145,7 @@ div.video > iframe {
     background-color: #09421d;
     border-radius: 10px 10px 0px 0px;
     padding: 10px 0px 10px 10px;
+    font-size: 1.2em;
 }
 #extra > p {
     text-indent: 2em;
@@ -162,17 +167,6 @@ div.video > iframe {
 #extra > ul {
     list-style-type: "\2714";
 }
-
-/*#listA {
-    text-indent: 5px;
-    display: inline-block;
-}
-#listB {
-    text-indent: 5px;           DÁ PARA USAR TAMBEM O COLUMNS: 2
-    display: inline-block;
-    margin-left: 30%;
-}
-*/
 
 #lista {
     columns: 2;
