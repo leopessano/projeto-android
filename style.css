@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+* {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+VARIÁVEIS EM CSS:
+:root {
+    --cor1: #ffff;
+    --fontePadrao: arial, verdana, sans-serif;
+
+    -- é para definir a variável, logo após o seu nome e declaração
+*/
+
+header {
+    background-image: linear-gradient(to top, #09421d, #67be86);
+    padding: 50px 20px 0px 20px;
+    color: white;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.336);
+}
+header > h1 {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.301);
+}
+header > p {
+    padding: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.301);
+}
+header > nav {
+    padding: 10px;
+}
+nav > a {
+    padding: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #34b46e;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.301);
+}
+nav > a:hover {
+    background-color: #2ab95c;
+    color: #09421d;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 500ms;
+    /*transition-delay: ;*/
+}
+body {
+    background-color: #d0f1c1;
+}
+
+main {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.301);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#principal > h1 {
+    font-family: android;
+    color: #0d5a28;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+#principal > h2 {
+    font-family: android;
+    color: #3a684a;
+    background-image: linear-gradient(to right, #15a146a8, #67be852c);
+    margin: 15px 0px;
+    padding-left: 10px;
+}
+#principal > p > span {
+    color: #0d5a28;
+    font-weight: bold;
+}
+#principal > p > a {
+    background-color: #1bc5579d;
+    text-decoration: none;
+    color: #0b4e23;
+    font-weight: bold;
+    padding: 0px 2px;
+}
+#principal > p > a:hover {
+    text-decoration: underline;
+}
+#principal > p {
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+#principal picture {
+    margin-bottom: 20px;
+}
+#dandroid {
+    display: block;
+    text-align: center;
+}
+#irina {
+    display: block;
+    text-align: center;
+}
+#bugdroid {
+    display: block;
+    text-align: center;
+}
+
+div.video {
+    background-color: #09421d;
+    margin: 0px -20px 30px -20px;
+    padding: 10px;
+    padding-bottom: 57.9%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#extra {
+    background-color: #89dab1;
+    border-radius: 10px;
+    padding: 0px 0px 20px 0px;
+    text-align: justify;
+    box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.301);
+}
+#extra > h2 {
+    color: white;
+    background-color: #09421d;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 0px 10px 10px;
+}
+#extra > p {
+    text-indent: 2em;
+    margin: 20px;
+}
+#extra > p > span {
+    color: #0d5a28;
+    font-weight: bold;
+}
+#extra > p > a {
+    text-decoration: none;
+    color: #0b4e23;
+    font-weight: bold;
+    padding: 0px 2px;
+}
+#extra > p > a:hover {
+    text-decoration: underline;
+}
+#extra > ul {
+    list-style-type: "\2714";
+}
+#listA {
+    text-indent: 5px;
+    display: inline-block;
+}
+#listB {
+    text-indent: 5px;           /* DÁ PARA USAR TAMBEM O COLUMNS: 2*/
+    display: inline-block;
+    margin-left: 30%;
+}
+#final {
+    text-indent: 2em;
+    margin: 20px;
+}
+#final > span {
+    color: #0d5a28;
+    font-weight: bold;
+}
+footer {
+    background-color: #09421d;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+footer span {
+    font-weight: bold;
+}
