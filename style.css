@@ -168,7 +168,7 @@ div.video > iframe {
     list-style-type: "\2714";
 }
 
-#lista {
+.lista {
     columns: 2;
     text-indent: 5px;
 }
@@ -189,4 +189,38 @@ footer {
 }
 footer span {
     font-weight: bold;
+}
+#help h2 {
+    color: white;
+    text-align: center;
+    background-color: #09421d;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#help p {
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+
+.lista {
+    columns: 2;
+    text-indent: 5px;
+    margin-bottom: 20px;
+}
+
+#extra > ul {
+    list-style-type: "\2714";
+}
+
+#help a {
+    text-decoration: none;
+    color: #0f662e;
+    font-weight: bold;
+    padding: 0px 2px;
+}
+#help a:hover {
+    text-decoration: underline;
 }
