@@ -56,9 +56,9 @@ body {
 }
 
 main {
+    max-width: 1000px;
     background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto;
     margin-bottom: 5%;
     padding: 20px;
     text-align: justify;
@@ -97,8 +97,9 @@ main {
     text-indent: 2em;
     margin-bottom: 20px;
 }
-#principal picture {
+main img {
     margin-bottom: 20px;
+    max-width: 1000px;
 }
 #dandroid {
     display: block;
@@ -161,15 +162,22 @@ div.video > iframe {
 #extra > ul {
     list-style-type: "\2714";
 }
-#listA {
+/*#listA {
     text-indent: 5px;
     display: inline-block;
 }
 #listB {
-    text-indent: 5px;           /* DÁ PARA USAR TAMBEM O COLUMNS: 2*/
+    text-indent: 5px;           DÁ PARA USAR TAMBEM O COLUMNS: 2
     display: inline-block;
     margin-left: 30%;
 }
+*/
+
+#lista {
+    columns: 2;
+    text-indent: 5px;
+}
+
 #final {
     text-indent: 2em;
     margin: 20px;
